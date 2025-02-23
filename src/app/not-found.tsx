@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar/Navbar';
 import NotFound from '@/components/Not-Found/Not-Found';
 import { Box } from '@mui/material';
 
@@ -15,6 +16,7 @@ export default function notFound() {
             justifyContent:'center'
 
         }}>
+            <Navbar/>
             <NotFound />
 
         </Box>
