@@ -10,13 +10,14 @@ const Hero = () => {
   return (
     <Box
       sx={{
-        minHeight: '100vh',
+        height: '100vh',
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'space',
+        justifyContent: 'center',
         alignItems: 'center',
+        textAlign:'center',
         backgroundColor: '#f5f5f5',
-        pb: { xs: 2, md: 4 },
+        pb: { xs: 3, md: 6 },
         overflow: 'hidden',
       }}
     >
@@ -50,6 +51,8 @@ const Hero = () => {
         maxWidth: '100%',
         overflow: 'auto',
         WebkitOverflowScrolling: 'touch',
+        justifyContent:'center',
+        alignItems:'center',
         px: { xs: 1, md: 2 }
       }}>
         <Piano width={isMobile ? window.innerWidth - 32 : 800} />

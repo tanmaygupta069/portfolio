@@ -14,9 +14,12 @@ export default function Home() {
       pt: '64px',
       minHeight: '100vh',
       display: 'flex',
-      flexDirection: 'column'
+      flexDirection: 'column',
+      // justifyContent:'space-between',
+      // alignItems:'center'
     }}>
       <Navbar />
+      
       <Hero />
       <Footer />
     </Box>
