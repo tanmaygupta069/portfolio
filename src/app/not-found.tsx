@@ -1,5 +1,5 @@
 import NotFound from '@/components/Not-Found/Not-Found';
-import { Box, Container, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 
 
 export default function notFound() {
